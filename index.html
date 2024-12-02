@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AZ Trims - Barber</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+<meta name="description" content="A simple website, built with Glitch. Remix it to get your own."/>
+<meta name="robots" content="index,follow" />
+<meta property="og:title" content="Hello World!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+<meta property="og:description" content="A simple website, built with Glitch. Remix it to get your own."/>
+<meta property="og:image" content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"/>
+<meta name="twitter:card" content="summary" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">AZ Trims</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="glowing-text">Welcome to AZ Trims</h1>
+      <p>Your premium barber experience. Book your appointment today!</p>
+      <a href="#services" class="explore-btn">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Haircuts</h3>
+        <p>Taper: £5-£10</p>
+        <p>Fade: £10</p>
+        <p>Shape-ups: £5</p>
+      </div>
+      <div class="card">
+        <h3>Beard Trim</h3>
+        <p>Shape & Groom: £7-£15</p>
+      </div>
+      <div class="card">
+        <h3>Specialty Cuts</h3>
+        <p>Custom Styles: Price on Request</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 AZ Trims | All Rights Reserved</p>
+  </footer>
+
+
+
+  <!-- Contact Form Section -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <form action="https://formspree.io/f/xldeaeon" method="POST" id="contact-form">
+    <input type="text" placeholder="Your Name" id="name" name="name" required>
+    <input type="email" placeholder="Your Email" id="email" name="email" required>
+    <textarea placeholder="Your Message" id="message" name="message" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+<input type="tel" placeholder="Your Phone Number" id="phone" name="phone">
+
+
+</body>
+</html>
